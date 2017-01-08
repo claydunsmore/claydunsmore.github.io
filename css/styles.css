@@ -104,6 +104,9 @@ h1.navbar-left.white.logoName {
 .item {
     margin: 0 auto;
 }
+.wrapper {
+    margin: 0 auto;
+}
 .carousel-inner {
     margin-bottom: 3em;
 }
@@ -116,24 +119,31 @@ h1.navbar-left.white.logoName {
 .carousel-indicators .active {
     background-color: #999;
 }
+.carousel-caption {
+    position: relative;
+    top: 1px;
+    width: 17em;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
 .carousel-caption span {
     color: #000;
     padding: .2em;
-    background-color: rgba(255, 255, 255, .9);
     border-radius: 10px;
     text-shadow: 0 0 0;
 }
 span.description {
-    font-size: .6em;
+    font-size: 1em;
 }
 .portrait {
     display: none;
 }
 .about {
-    background: url("../img/symphony.png");
+    background: url('../img/subtle_stripes_@2X.png');
 }
 .aboutContent {
-    margin: 1.61em 0;
+    margin: 1.61em;
 }
 .row .footer {
     background-color: #000;
@@ -196,7 +206,7 @@ h3.text-center.aboutTitle {
         top: 35px;
     }
     h1.navbar-left.white.logoName {
-        margin: .2em 0 0 .3em;
+        margin: .2em 0 0 .15em;
         font-size: 4.8em;
     }
 
